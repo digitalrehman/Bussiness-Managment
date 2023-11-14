@@ -25,13 +25,13 @@ const Collections = () => {
         <tr>
           <th>Total Bussiness</th>
           <td>140860</td>
-          <td>44010</td>
+          <td>53550</td>
       
         </tr>
         <tr>
           <th>Profit</th>
           <td>35400</td>
-          <td>29325</td>
+          <td>35265</td>
   
         </tr>
       </tbody>
