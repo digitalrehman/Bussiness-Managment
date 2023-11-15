@@ -43,9 +43,9 @@ const Collections = () => {
               <table className="table table-dark">
   <thead>
     <tr>
-      <th scope="col" className="text-primart">Month</th>
-      <th scope="col" className="text-primart">Sale</th>
-      <th scope="col" className="text-primart">Profit</th>
+      <th scope="col" className="text-primary">Month</th>
+      <th scope="col" className="text-primary">Sale</th>
+      <th scope="col" className="text-primary">Profit</th>
     </tr>
   </thead>
   <tbody>
