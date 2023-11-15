@@ -37,19 +37,25 @@ const Collections = () => {
       </tbody>
     </Table>
 
-              <div className="Text-center my-3">
+              <div className="text-center my-3">
               <h1 className="fw-bold text-light">Monthly Reports</h1>
               </div>
               <table className="table table-dark">
   <thead>
     <tr>
-      <th scope="col">November</th>
+      <th scope="col">Month</th>
       <th scope="col">Sale</th>
       <th scope="col">Profit</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <th scope="row">November</th>
+      <td>0</td>
+      <td>0</td>
+  
+    </tr>
+      <tr>
       <th scope="row">December</th>
       <td>0</td>
       <td>0</td>
