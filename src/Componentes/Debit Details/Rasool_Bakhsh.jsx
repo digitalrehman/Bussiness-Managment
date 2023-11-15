@@ -21,9 +21,9 @@ const Rasool_Bakhsh = () => {
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">1</th>
-                  <td>0</td>
-                  <td>0</td>
+                  <th scope="row">15/11/2023</th>
+                  <td>Debt</td>
+                  <td>900000</td>
                   <td>0</td>
                 </tr>
                 <tr>
