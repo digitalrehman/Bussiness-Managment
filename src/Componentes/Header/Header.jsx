@@ -33,6 +33,13 @@ const Header = () => {
               >
                Karachi
               </NavLink>
+
+    <NavLink
+              to="/Debit"
+              className="text-light fw-bold text-decoration-none me-4"
+            >
+              Debits
+            </NavLink>
            
     
               </div>
