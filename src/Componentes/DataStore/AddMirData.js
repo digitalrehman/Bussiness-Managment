@@ -32,5 +32,23 @@ let Add_Mirpur = [
   
   
 ];
+let sum = 0;
+for (let i = 0; i < Add_Mirpur.length; i++) {
+  sum += parseInt(Add_Mirpur[i].sale);
+}
 
-export { Add_Mirpur };
+let sumPro = 0;
+for (let i = 0; i < Add_Mirpur.length; i++) {
+  sumPro += parseInt(Add_Mirpur[i].profit);
+}
+
+let sum_Ans = [
+  {
+    Sumvalue : sum,
+    Sumprofit : sumPro
+
+  },
+]
+;
+
+export { Add_Mirpur, sum_Ans };
