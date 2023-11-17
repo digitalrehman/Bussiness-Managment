@@ -1,8 +1,9 @@
 import React from 'react'
 import Nov_2023 from '../November/Nov_2023'
-import { Add_Mirpur } from "../DataStore/AddMirData";
+import { Add_Mirpur, sum_Ans } from "../DataStore/AddMirData";
 
 const NovLoop = () => {
+    let { Sumvalue, Sumprofit } = sum_Ans[0];
   return (
     <>
              <div className="container">
@@ -35,6 +36,28 @@ const NovLoop = () => {
                 
               );
             })}
+            <div className="row">
+              <div className="col-10">
+                <table className="table table-dark table-hover text-center">
+                  <thead className="text-center">
+                    <tr>
+                      <th scope="col" className="fs-5 text-info">
+                        Total Sale
+                      </th>
+                      <th scope="col" className="fs-5 text-info">
+                        Total Profit
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">{Sumvalue}</td>
+                      <td scope="row"> {Sumprofit} </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
         </div>
         </div>
       </div>
