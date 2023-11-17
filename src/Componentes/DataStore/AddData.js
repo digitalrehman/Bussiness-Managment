@@ -23,6 +23,11 @@ let Add_Data = [
     date: "15/11/2023",
     sale: "8270",
     profit: "3090",
+  } ,
+    {
+    date: "16/11/2023",
+    sale: "7350",
+    profit: "1995",
   }
 ];
 export { Add_Data };
