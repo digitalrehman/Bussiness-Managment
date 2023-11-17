@@ -30,4 +30,21 @@ let Add_Data = [
     profit: "1995",
   }
 ];
-export { Add_Data };
+
+let sum = 0;
+for (let i = 0; i < Add_Data.length; i++) {
+  sum += parseInt(Add_Data[i].sale);
+}
+let sumPro = 0;
+for (let i = 0; i < Add_Data.length; i++) {
+  sumPro += parseInt(Add_Data[i].profit);
+}
+
+let sum_Ans = [
+  {
+    Sumvalue : sum,
+    Sumprofit : sumPro
+
+  },
+]
+export { Add_Data, sum_Ans };
