@@ -6,7 +6,7 @@ const Summra = () => {
       <div className="container">
         <div className="row my-3">
           <div className="text-center">
-            <h1 className="fw-bold text-light">Summra</h1>
+            <h1 className="fw-bold text-light">Samra</h1>
             <p className="text-light fs-5">Debit Information</p>
           </div>
           <div className="col-12">
