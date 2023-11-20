@@ -35,6 +35,25 @@ const Collections = () => {
     </tr>
   </tbody>
 </table>
+              <div className="col-10 text-center">
+              <div>
+                <h1 className="fw-bold text-light">Debit Details</h1>
+              </div>
+              <table className="table table-dark">
+                <thead>
+                  <tr>
+                    <th>Total Debit</th>
+                    <th>Total Credit</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>5675000</th>
+                    <td>0</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
     </div>
         </div>
     </div>
