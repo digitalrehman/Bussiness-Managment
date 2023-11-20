@@ -29,6 +29,12 @@ const Home = () => {
             >
               Monthly Reports
             </Link>
+            <Link
+              to="/Bank_Detail"
+              className="text-light text-decoration-none p-2 bg-dark rounded-2 m-1"
+            >
+              Bank Detail
+            </Link>
           </div>
         </div>
       </div>
