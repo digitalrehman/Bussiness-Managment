@@ -27,7 +27,7 @@ const Home = () => {
               to="/Collections"
               className="text-light text-decoration-none p-2 bg-dark rounded-2 m-1"
             >
-              Monthly Reports
+              Business
             </Link>
             <Link
               to="/Bank_Detail"
