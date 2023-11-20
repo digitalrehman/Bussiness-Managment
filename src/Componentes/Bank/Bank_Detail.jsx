@@ -2,7 +2,7 @@
 import React from "react";
 import { sum_Ans, Bank } from "../DataStore/Bank";
 const Bank_Detail = () => {
-  let { Sumvalue, Sumprofit, Sumkar } = sum_Ans[0];
+  let { Summir, Sumk, Sumprofit, Sumkar } = sum_Ans[0];
   return (
     <>
       <div className="container-fluid">
@@ -21,13 +21,16 @@ const Bank_Detail = () => {
                     Name
                   </th>
                   <th scope="col" className="text-primary">
-                    Credit
+                    CR Mir
                   </th>
                   <th scope="col" className="text-primary">
-                    Debit Mir
+                    CR Kar
                   </th>
                   <th scope="col" className="text-primary">
-                    Debit Kar
+                    DE Mir
+                  </th>
+                  <th scope="col" className="text-primary">
+                    DE Kar
                   </th>
                 </tr>
               </thead>
@@ -36,7 +39,8 @@ const Bank_Detail = () => {
                   <tr>
                     <td>{data.date}</td>
                     <td>{data.name}</td>
-                    <td>{data.credit}</td>
+                    <td>{data.credit_mir}</td>
+                    <td>{data.credit_kar}</td>
                     <td>{data.debit_mir}</td>
                     <td>{data.debit_kar}</td>
                   </tr>
@@ -49,7 +53,10 @@ const Bank_Detail = () => {
                   <thead className="text-center">
                     <tr>
                       <th scope="col" className="fs-5 text-info">
-                        Total Credit
+                        Total CR Mir
+                      </th>
+                      <th scope="col" className="fs-5 text-info">
+                        Total CR Kar
                       </th>
                       <th scope="col" className="fs-5 text-info">
                         Total DE Mir
@@ -61,7 +68,8 @@ const Bank_Detail = () => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td scope="row">{Sumvalue}</td>
+                      <td scope="row">{Summir}</td>
+                      <td scope="row">{Sumk}</td>
                       <td scope="row">{Sumprofit}</td>
                       <td scope="row">{Sumkar}</td>
                     </tr>
