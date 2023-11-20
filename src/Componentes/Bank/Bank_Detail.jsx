@@ -34,8 +34,8 @@ const Bank_Detail = () => {
                   </th>
                 </tr>
               </thead>
-              {Bank.map((data) => (
-                <tbody key={data._id}>
+              {Bank.map((data,_id) => (
+                <tbody key={_id}>
                   <tr>
                     <td>{data.date}</td>
                     <td>{data.name}</td>
