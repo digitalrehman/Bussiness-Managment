@@ -5,7 +5,7 @@ const Bank_Detail = () => {
   let { Sumvalue, Sumprofit, Sumkar } = sum_Ans[0];
   return (
     <>
-      <div className="container">
+      <div className="container-fluid">
         <div className="row my-3">
           <div className="text-center">
             <h1 className="fw-bold text-light">Bank Details</h1>
