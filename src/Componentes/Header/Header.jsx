@@ -8,7 +8,7 @@ const Header = () => {
     <>
 <nav className="navbar bg-dark">
   <div className="container-fluid justify-content-space-around ">
-    <Link className="navbar-brand fs-3 fw-bold text-light" to="/">Adil Brother's</Link>
+    <Link className="navbar-brand fs-3 fw-bold text-light" to="/">Adil Brothers</Link>
    
 
 <div>
