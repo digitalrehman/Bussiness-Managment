@@ -15,8 +15,8 @@ const Raziya = () => {
                 <tr>
                   <th scope="col">Date</th>
                   <th scope="col">Description</th>
-                  <th scope="col">Debit</th>
                   <th scope="col">Credit</th>
+                  <th scope="col">Debit</th>
                 </tr>
               </thead>
               <tbody>
@@ -26,18 +26,7 @@ const Raziya = () => {
                   <td>375000</td>
                   <td>0</td>
                 </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                </tr>
+                
               </tbody>
             </table>
           </div>
