@@ -8,7 +8,7 @@ const Home = () => {
         <div className="row my-5">
           <div className="col-12">
             <h1 className="text-light">
-              <span className="text-dark fw-bold">Welcome!</span> Adil Brother's
+              <span className="text-dark fw-bold">Welcome!</span> Adil Brothers
             </h1>
             <p className="text-light">Welcome to our Managment System</p>
             <Link
