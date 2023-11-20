@@ -48,7 +48,7 @@ const Bank_Detail = () => {
               ))}
             </table>
             <div className="row">
-              <div className="col-10">
+              <div className="col-12">
                 <table className="table table-dark table-hover text-center">
                   <thead className="text-center">
                     <tr>
