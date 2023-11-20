@@ -19,6 +19,7 @@ import Raziya from '../Debit Details/Raziya'
 import Rukhsana from '../Debit Details/Rukhsana'
 import Sana from '../Debit Details/Sana'
 import Summra from '../Debit Details/Summra'
+import Bank_Detail from '../Bank/Bank_Detail'
 
 const Router = () => {
   return (
@@ -43,6 +44,7 @@ const Router = () => {
         <Route path='/Rukhsana' element={<Rukhsana/>}/>
         <Route path='/Sana' element={<Sana/>}/>
         <Route path='/Summra' element={<Summra/>}/>
+         <Route path='/Bank_Detail' element={<Bank_Detail/>}/>
         
       </Routes>
     </>
