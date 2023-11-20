@@ -15,8 +15,8 @@ const Anwar_Adil = () => {
                 <tr>
                   <th scope="col">Date</th>
                   <th scope="col">Description</th>
-                  <th scope="col">Debit</th>
                   <th scope="col">Credit</th>
+                  <th scope="col">Debit</th>
                 </tr>
               </thead>
               <tbody>
