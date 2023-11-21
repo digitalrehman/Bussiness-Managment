@@ -42,8 +42,8 @@ const Collections = () => {
               <table className="table table-dark">
                 <thead>
                   <tr>
-                    <th>Total Debit</th>
                     <th>Total Credit</th>
+                    <th>Total Debit</th>
                   </tr>
                 </thead>
                 <tbody>
