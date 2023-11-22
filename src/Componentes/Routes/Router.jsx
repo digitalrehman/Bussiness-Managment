@@ -20,6 +20,8 @@ import Rukhsana from '../Debit Details/Rukhsana'
 import Sana from '../Debit Details/Sana'
 import Summra from '../Debit Details/Summra'
 import Bank_Detail from '../Bank/Bank_Detail'
+import Shoaib_Akhtar from '../Debit Details/Shoaib_Akhtar'
+import Irfan_Chandaji from '../Debit Details/Irfan_Chandaji'
 
 const Router = () => {
   return (
@@ -44,7 +46,9 @@ const Router = () => {
         <Route path='/Rukhsana' element={<Rukhsana/>}/>
         <Route path='/Sana' element={<Sana/>}/>
         <Route path='/Summra' element={<Summra/>}/>
-         <Route path='/Bank_Detail' element={<Bank_Detail/>}/>
+        <Route path='/Bank_Detail' element={<Bank_Detail/>}/>
+        <Route path='/Shoaib_Akhtar' element={<Shoaib_Akhtar/>}/>
+        <Route path='/Irfan_Chandaji' element={<Irfan_Chandaji/>}/>
         
       </Routes>
     </>
