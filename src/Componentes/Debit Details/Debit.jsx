@@ -47,6 +47,12 @@ const Debit = () => {
             <Link to={"/Faqeer_M_Saleem"} className="btn btn-dark btn-lg m-1">
               Faqeer M Saleem
             </Link>
+            <Link to={"/Shoaib_Akhtar"} className="btn btn-dark btn-lg m-1">
+            Shoaib Akhtar
+            </Link>
+            <Link to={"/Irfan_Chandaji"} className="btn btn-dark btn-lg m-1">
+            Shoaib Akhtar
+            </Link>
           </div>
         </div>
       </div>
