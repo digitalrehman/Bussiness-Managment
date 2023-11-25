@@ -58,6 +58,11 @@ let Add_Mirpur = [
     date: "22/11/2023",
     sale: "40800",
     profit: "9800",
+  },
+   {
+    date: "23/11/2023",
+    sale: "39900",
+    profit: "10100",
   }
   
   
