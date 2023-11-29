@@ -11,13 +11,13 @@ const Anwar_Adil = () => {
   return (
     <>
       <div className="container-fluid">
-        <div className="row my-3">
+        <div className="row my-3 ">
           <div className="text-center">
             <h1 className="fw-bold text-light">Anwar Adil</h1>
             <p className="text-light fs-5">Debit Information</p>
           </div>
           <div className="col-12">
-            <table className="table table-dark overflow-scroll">
+            <table className="table table-dark">
               <thead>
                 <tr>
                   <th scope="col">Page</th>
@@ -31,7 +31,10 @@ const Anwar_Adil = () => {
                 <tr>
                   <th scope="row">1</th>
                   <td>05/11/2021</td>
-                  <td>Committee ke</td>
+                  <td>
+                    Committee ke Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.
+                  </td>
                   <td>400000</td>
                   <td>0</td>
                 </tr>
@@ -89,7 +92,7 @@ const Anwar_Adil = () => {
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
-                    width: "auto",
+                    width: "750px",
                     height: "auto",
                   }}
                 >
