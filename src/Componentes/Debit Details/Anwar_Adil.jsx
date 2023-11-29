@@ -10,14 +10,14 @@ const Anwar_Adil = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="container-fluid">
         <div className="row my-3">
           <div className="text-center">
             <h1 className="fw-bold text-light">Anwar Adil</h1>
             <p className="text-light fs-5">Debit Information</p>
           </div>
           <div className="col-12">
-            <table className="table table-dark">
+            <table className="table table-dark overflow-scroll">
               <thead>
                 <tr>
                   <th scope="col">Page</th>
@@ -32,36 +32,36 @@ const Anwar_Adil = () => {
                   <th scope="row">1</th>
                   <td>05/11/2021</td>
                   <td>Committee ke</td>
-                  <td>0</td>
+                  <td>400000</td>
                   <td>0</td>
                 </tr>
                 <tr>
                   <th scope="row">1</th>
                   <td>05/11/2021</td>
                   <td>Karachi walay bakaya</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>650000</td>
+                  <td>250000</td>
                 </tr>
                 <tr>
                   <th scope="row">1</th>
                   <td>05/11/2021</td>
                   <td>Coure Car</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>-50000</td>
+                  <td>700000</td>
                 </tr>
                 <tr>
                   <th scope="row">1</th>
                   <td>05/11/2021</td>
                   <td>Akbar ne Account main dalay</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>1079000</td>
+                  <td>829000</td>
                 </tr>
                 <tr>
                   <th scope="row">1</th>
                   <td>05/11/2021</td>
-                  <td>Anwar ne mir paise diye</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td> mir paise diye 2 saal</td>
+                  <td>2679000</td>
+                  <td>350000</td>
                 </tr>
                 <tr>
                   <th scope="row">1</th>
@@ -94,13 +94,14 @@ const Anwar_Adil = () => {
                   }}
                 >
                   <img src={page1} />
+
                   <button
                     style={{
-                    position: "relative",
-                      top: "10px",
-                      right: "10px"
-                  }}
-                    className="btn btn-danger"
+                      position: "relative",
+                      left: "-70px",
+                      top: "-390px",
+                    }}
+                    className="btn btn-danger fw-bold"
                     onClick={() => setVisible(false)}
                   >
                     Close
