@@ -32,8 +32,7 @@ const Anwar_Adil = () => {
                   <th scope="row">1</th>
                   <td>05/11/2021</td>
                   <td>
-                    Committee ke Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit.
+                    Committee ke
                   </td>
                   <td>400000</td>
                   <td>0</td>
