@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useState } from "react";
+import page1 from "../../assets/IMG/Page-1.jpeg";
 
 const Anwar_Adil = () => {
+  const [visible, setVisible] = useState(false);
+
+  const handleClick = () => {
+    setVisible(!visible);
+  };
+
   return (
     <>
       <div className="container">
@@ -13,6 +20,7 @@ const Anwar_Adil = () => {
             <table className="table table-dark">
               <thead>
                 <tr>
+                  <th scope="col">Page</th>
                   <th scope="col">Date</th>
                   <th scope="col">Description</th>
                   <th scope="col">Credit</th>
@@ -22,29 +30,84 @@ const Anwar_Adil = () => {
               <tbody>
                 <tr>
                   <th scope="row">1</th>
+                  <td>05/11/2021</td>
+                  <td>Committee ke</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>05/11/2021</td>
+                  <td>Karachi walay bakaya</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>05/11/2021</td>
+                  <td>Coure Car</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>05/11/2021</td>
+                  <td>Akbar ne Account main dalay</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>05/11/2021</td>
+                  <td>Anwar ne mir paise diye</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>05/11/2021</td>
                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
                 </tr>
                 <tr>
-                  <th scope="row">2</th>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
+                  <th scope="row">1</th>
+                  <td>05/11/2021</td>
                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
                 </tr>
               </tbody>
             </table>
+            <div>
+              <button onClick={handleClick} className="btn btn-dark fw-bold">
+                Page 1
+              </button>
+              {visible && (
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    width: "auto",
+                    height: "auto",
+                  }}
+                >
+                  <img src={page1} />
+                  <button
+                    className="btn btn-danger"
+                    onClick={() => setVisible(false)}
+                  >
+                    Close
+                  </button>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Anwar_Adil
+export default Anwar_Adil;
