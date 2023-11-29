@@ -95,6 +95,11 @@ const Anwar_Adil = () => {
                 >
                   <img src={page1} />
                   <button
+                    style={{
+                    position: "relative",
+                      top: "10px",
+                      right: "10px"
+                  }}
                     className="btn btn-danger"
                     onClick={() => setVisible(false)}
                   >
