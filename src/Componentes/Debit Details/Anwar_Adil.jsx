@@ -111,8 +111,8 @@ const Anwar_Adil = () => {
               <td
                 style={{
                   textAlign: "center",
-                  fontWeight: "bold",
-                  color: "blue",
+                  fontWeight: "bold"
+               
                 }}
               >
                 {item.balance}
