@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import page1 from "../../assets/IMG/anwar.jpeg";
+import page2 from "../../assets/IMG/anwar.jpeg";
 import { Table } from "react-bootstrap";
 
 const Anwar_Adil = () => {
@@ -52,10 +52,18 @@ const Anwar_Adil = () => {
     {
       page: "1",
       Date: "00",
+      description: "Akbar se portion ke paise lenay hai",
+      credit: "1250000",
+      debit: "00",
+      balance: "2329000",
+    },
+    {
+      page: "1",
+      Date: "00",
       description: "Mir main paise diye",
       credit: "350000",
       debit: "00",
-      balance: "1429000",
+      balance: "2679000",
     },
     {
       page: "1",
@@ -63,7 +71,7 @@ const Anwar_Adil = () => {
       description: "HighRoof De",
       credit: "00",
       debit: "740000",
-      balance: "689,000",
+      balance: "1939000",
     },
   ];
 
@@ -105,14 +113,13 @@ const Anwar_Adil = () => {
             <tr key={index}>
               <td style={{ textAlign: "center" }}>{item.page}</td>
               <td style={{ textAlign: "center" }}>{item.Date}</td>
-              <td style={{  width: "300px" }}>{item.description}</td>
+              <td>{item.description}</td>
               <td style={{ textAlign: "center" }}>{item.credit}</td>
               <td style={{ textAlign: "center" }}>{item.debit}</td>
               <td
                 style={{
                   textAlign: "center",
-                  fontWeight: "bold"
-               
+                  fontWeight: "bold",
                 }}
               >
                 {item.balance}
@@ -132,7 +139,7 @@ const Anwar_Adil = () => {
               height: "100vh",
             }}
           >
-            <img src={page1} style={{ height: "auto", width: "100%" }} />
+            <img src={page2} style={{ height: "auto", width: "100%" }} />
           </div>
         )}
       </div>
