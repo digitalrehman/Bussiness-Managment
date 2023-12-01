@@ -70,7 +70,7 @@ const Anwar_Adil = () => {
         <thead>
           <tr>
             <th>Page</th>
-            <th style={{ width: "300px" }}>Description</th>
+            <th style={{ width: "270px" }}>Description</th>
             <th>Credit</th>
             <th>Debit</th>
             <th>Balance</th>
@@ -90,16 +90,16 @@ const Anwar_Adil = () => {
       </Table>
       <div>
         <button onClick={handleClick} className="btn btn-dark fw-bold">
-         {!visible ? "Page 1" : "Close"} 
+          {!visible ? "Page 1" : "Close"}
         </button>
         {visible && (
           <div
             style={{
-              width: "90vw",
+              width: "95vw",
               height: "100vh",
             }}
           >
-            <img src={page1} style={{height: "100%", width: "100%"}} />
+            <img src={page1} style={{ height: "auto", width: "100%" }} />
           </div>
         )}
       </div>
