@@ -122,7 +122,7 @@ const Anwar_Adil = () => {
         </tbody>
       </Table>
       <div>
-        <button onClick={handleClick} className="btn btn-dark fw-bold">
+        <button onClick={handleClick} className="btn btn-dark fw-bold my-3">
           {!visible ? "Page 1" : "Close"}
         </button>
         {visible && (
