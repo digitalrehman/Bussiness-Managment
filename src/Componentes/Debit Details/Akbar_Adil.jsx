@@ -4,7 +4,6 @@ import { Table } from "react-bootstrap";
 
 const Akbar_Adil = () => {
   const [visible, setVisible] = useState(false);
-
   const handleClick = () => {
     setVisible(!visible);
   };
@@ -46,7 +45,7 @@ const Akbar_Adil = () => {
           color: "snow",
         }}
       >
-        Anwar Adil
+        Akbar Adil
       </h1>
       <Table
         striped
