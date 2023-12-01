@@ -92,7 +92,7 @@ const Anwar_Adil = () => {
           <tr>
             <th style={{ color: "aqua", textAlign: "center" }}>Page</th>
             <th style={{ color: "aqua", textAlign: "center" }}>Date</th>
-            <th style={{ width: "270px", color: "aqua", textAlign: "center" }}>
+            <th style={{ width: "300px", color: "aqua", textAlign: "center" }}>
               Description
             </th>
             <th style={{ color: "aqua", textAlign: "center" }}>Credit</th>
@@ -105,7 +105,7 @@ const Anwar_Adil = () => {
             <tr key={index}>
               <td style={{ textAlign: "center" }}>{item.page}</td>
               <td style={{ textAlign: "center" }}>{item.Date}</td>
-              <td>{item.description}</td>
+              <td style={{  width: "300px" }}>{item.description}</td>
               <td style={{ textAlign: "center" }}>{item.credit}</td>
               <td style={{ textAlign: "center" }}>{item.debit}</td>
               <td
