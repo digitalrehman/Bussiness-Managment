@@ -10,7 +10,7 @@ const Afzal_Hussain = () => {
   };
   const data = [
     {
-      page: "1",
+      page: "15",
       Date: "5/11/2021",
       description: "2 saal ke hisaab walay",
       credit: "350000",
@@ -18,7 +18,7 @@ const Afzal_Hussain = () => {
       balance: "350000",
     },
     {
-      page: "1",
+      page: "15",
       Date: "00",
       description: "Hajj Walay Bakaya",
       credit: "650000",
@@ -82,7 +82,7 @@ const Afzal_Hussain = () => {
       </Table>
       <div>
         <button onClick={handleClick} className="btn btn-dark fw-bold my-3">
-          {!visible ? "Page 1" : "Close"}
+          {!visible ? "Page 15" : "Close"}
         </button>
         {visible && (
           <div
