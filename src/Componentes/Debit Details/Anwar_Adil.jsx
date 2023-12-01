@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import page1 from "../../assets/IMG/Page-1.jpeg";
+import { Table } from "react-bootstrap";
 
 const Anwar_Adil = () => {
   const [visible, setVisible] = useState(false);
@@ -7,114 +8,117 @@ const Anwar_Adil = () => {
   const handleClick = () => {
     setVisible(!visible);
   };
+  const data = [
+    {
+      page: "1",
+      description: "This is item 1",
+      credit: "34566",
+      debit: "456567",
+      balance: "5764675",
+    },
+    {
+      page: "1",
+      description: "This is item 2 ldfuisdfgsd vycgvzxvcyvfdsy",
+      credit: "34566",
+      debit: "456567",
+      balance: "5764675",
+    },
+    {
+      page: "1",
+      description: "This is item 3",
+      credit: "34566",
+      debit: "456567",
+      balance: "5764675",
+    },
+    {
+      page: "1",
+      description: "This is item 4",
+      credit: "34566",
+      debit: "456567",
+      balance: "5764675",
+    },
+    {
+      page: "1",
+      description: "This is item 5",
+      credit: "34566",
+      debit: "456567",
+      balance: "5764675",
+    },
+  ];
 
   return (
-    <>
-      <div className="container-fluid">
-        <div className="row my-3 ">
-          <div className="text-center">
-            <h1 className="fw-bold text-light">Anwar Adil</h1>
-            <p className="text-light fs-5">Debit Information</p>
-          </div>
-          <div className="col-12">
-            <table className="table table-dark">
-              <thead>
-                <tr>
-                  <th scope="col">Page</th>
-                  <th scope="col">Date</th>
-                  <th scope="col">Description</th>
-                  <th scope="col">Credit</th>
-                  <th scope="col">Debit</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>05/11/2021</td>
-                  <td>
-                    Committee ke
-                  </td>
-                  <td>400000</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>05/11/2021</td>
-                  <td>Karachi walay bakaya</td>
-                  <td>650000</td>
-                  <td>250000</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>05/11/2021</td>
-                  <td>Coure Car</td>
-                  <td>-50000</td>
-                  <td>700000</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>05/11/2021</td>
-                  <td>Akbar ne Account main dalay</td>
-                  <td>1079000</td>
-                  <td>829000</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>05/11/2021</td>
-                  <td> mir paise diye 2 saal</td>
-                  <td>2679000</td>
-                  <td>350000</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>05/11/2021</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>05/11/2021</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                </tr>
-              </tbody>
-            </table>
-            <div>
-              <button onClick={handleClick} className="btn btn-dark fw-bold">
-                Page 1
-              </button>
-              {visible && (
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    width: "750px",
-                    height: "auto",
-                  }}
-                >
-                  <img src={page1} />
+    <div>
+      <h1
+        style={{
+          fontWeight: "bold",
+          textAlign: "center",
+          marginTop: "13px",
+          marginBottom: "10px",
+          color: "snow",
+        }}
+      >
+        Anwar Adil
+      </h1>
+      <Table
+        striped
+        bordered
+        hover
+        responsive
+        variant="dark"
+        style={{ overflowX: "auto" }}
+      >
+        <thead>
+          <tr>
+            <th>Page</th>
+            <th style={{ width: "270px" }}>Description</th>
+            <th>Credit</th>
+            <th>Debit</th>
+            <th>Balance</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.map((item, index) => (
+            <tr key={index}>
+              <td>{item.page}</td>
+              <td>{item.description}</td>
+              <td>{item.credit}</td>
+              <td>{item.debit}</td>
+              <td>{item.balance}</td>
+            </tr>
+          ))}
+        </tbody>
+      </Table>
+      <div>
+        <button onClick={handleClick} className="btn btn-dark fw-bold">
+          Page 1
+        </button>
+        {visible && (
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "750px",
+              height: "auto",
+            }}
+          >
+            <img src={page1} />
 
-                  <button
-                    style={{
-                      position: "relative",
-                      left: "-70px",
-                      top: "-390px",
-                    }}
-                    className="btn btn-danger fw-bold"
-                    onClick={() => setVisible(false)}
-                  >
-                    Close
-                  </button>
-                </div>
-              )}
-            </div>
+            <button
+              style={{
+                position: "relative",
+                left: "-70px",
+                top: "-390px",
+              }}
+              className="btn btn-danger fw-bold"
+              onClick={() => setVisible(false)}
+            >
+              Close
+            </button>
           </div>
-        </div>
+        )}
       </div>
-    </>
+    </div>
   );
 };
 
