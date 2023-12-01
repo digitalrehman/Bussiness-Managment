@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import page1 from "../../assets/IMG/Page-1.jpeg";
+import page1 from "../../assets/IMG/anwar.jpeg";
 import { Table } from "react-bootstrap";
 
 const Anwar_Adil = () => {
@@ -11,38 +11,59 @@ const Anwar_Adil = () => {
   const data = [
     {
       page: "1",
-      description: "This is item 1",
-      credit: "34566",
-      debit: "456567",
-      balance: "5764675",
+      Date: "5/11/2021",
+      description: "commette",
+      credit: "400000",
+      debit: "00",
+      balance: "400000",
     },
     {
       page: "1",
-      description: "This is item 2 ldfuisdfgsd vycgvzxvcyvfdsy",
-      credit: "34566",
-      debit: "456567",
-      balance: "5764675",
+      Date: "00",
+      description: "Karachi Walay",
+      credit: "250000",
+      debit: "00",
+      balance: "650000",
     },
     {
       page: "1",
-      description: "This is item 3",
-      credit: "34566",
-      debit: "456567",
-      balance: "5764675",
+      Date: "00",
+      description: "Coure Car",
+      credit: "00",
+      debit: "700000",
+      balance: "-50000",
     },
     {
       page: "1",
-      description: "This is item 4",
-      credit: "34566",
-      debit: "456567",
-      balance: "5764675",
+      Date: "00",
+      description: "Coure Car sell",
+      credit: "300000",
+      debit: "00",
+      balance: "250000",
     },
     {
       page: "1",
-      description: "This is item 5",
-      credit: "34566",
-      debit: "456567",
-      balance: "5764675",
+      Date: "00",
+      description: "Akbar ne account main paise dalay",
+      credit: "829000",
+      debit: "00",
+      balance: "1079000",
+    },
+    {
+      page: "1",
+      Date: "00",
+      description: "Mir main paise diye",
+      credit: "350000",
+      debit: "00",
+      balance: "1429000",
+    },
+    {
+      page: "1",
+      Date: "00",
+      description: "HighRoof De",
+      credit: "00",
+      debit: "740000",
+      balance: "689,000",
     },
   ];
 
@@ -69,21 +90,33 @@ const Anwar_Adil = () => {
       >
         <thead>
           <tr>
-            <th>Page</th>
-            <th style={{ width: "270px" }}>Description</th>
-            <th>Credit</th>
-            <th>Debit</th>
-            <th>Balance</th>
+            <th style={{ color: "aqua", textAlign: "center" }}>Page</th>
+            <th style={{ color: "aqua", textAlign: "center" }}>Date</th>
+            <th style={{ width: "270px", color: "aqua", textAlign: "center" }}>
+              Description
+            </th>
+            <th style={{ color: "aqua", textAlign: "center" }}>Credit</th>
+            <th style={{ color: "aqua", textAlign: "center" }}>Debit</th>
+            <th style={{ color: "aqua", textAlign: "center" }}>Balance</th>
           </tr>
         </thead>
         <tbody>
           {data.map((item, index) => (
             <tr key={index}>
-              <td>{item.page}</td>
+              <td style={{ textAlign: "center" }}>{item.page}</td>
+              <td style={{ textAlign: "center" }}>{item.Date}</td>
               <td>{item.description}</td>
-              <td>{item.credit}</td>
-              <td>{item.debit}</td>
-              <td>{item.balance}</td>
+              <td style={{ textAlign: "center" }}>{item.credit}</td>
+              <td style={{ textAlign: "center" }}>{item.debit}</td>
+              <td
+                style={{
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  color: "blue",
+                }}
+              >
+                {item.balance}
+              </td>
             </tr>
           ))}
         </tbody>
