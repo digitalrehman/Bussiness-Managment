@@ -23,8 +23,8 @@ const Collections = () => {
   <tbody>
     <tr>
       <th scope="row">November</th>
-      <td>0</td>
-      <td>0</td>
+      <td>259290</td>
+      <td>115325</td>
   
     </tr>
       <tr>
