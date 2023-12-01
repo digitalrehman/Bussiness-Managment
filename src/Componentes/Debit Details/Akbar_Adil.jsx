@@ -9,7 +9,7 @@ const Akbar_Adil = () => {
   };
   const data = [
     {
-      page: "",
+      page: "5",
       Date: "00",
       description: "Gold 5 Tola 3 Gram",
       credit: "1148600",
@@ -17,7 +17,7 @@ const Akbar_Adil = () => {
       balance: "1148600",
     },
     {
-      page: "",
+      page: "5",
       Date: "00",
       description: "Portion Liya",
       credit: "00",
@@ -25,7 +25,7 @@ const Akbar_Adil = () => {
       balance: "-3851400",
     },
     {
-      page: "",
+      page: "5",
       Date: "00",
       description: "Portion ke hissay walay",
       credit: "1250000",
@@ -89,7 +89,7 @@ const Akbar_Adil = () => {
       </Table>
       <div>
         <button onClick={handleClick} className="btn btn-dark fw-bold my-3">
-          {!visible ? "Page 1" : "Close"}
+          {!visible ? "Page 5" : "Close"}
         </button>
         {visible && (
           <div
