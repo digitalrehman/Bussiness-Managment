@@ -90,31 +90,16 @@ const Anwar_Adil = () => {
       </Table>
       <div>
         <button onClick={handleClick} className="btn btn-dark fw-bold">
-          Page 1
+         {!visible ? "Page 1" : "Close"} 
         </button>
         {visible && (
           <div
             style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              width: "750px",
-              height: "auto",
+              width: "90vw",
+              height: "100vh",
             }}
           >
-            <img src={page1} />
-
-            <button
-              style={{
-                position: "relative",
-                left: "-70px",
-                top: "-390px",
-              }}
-              className="btn btn-danger fw-bold"
-              onClick={() => setVisible(false)}
-            >
-              Close
-            </button>
+            <img src={page1} style={{height: "100%", width: "100%"}} />
           </div>
         )}
       </div>
