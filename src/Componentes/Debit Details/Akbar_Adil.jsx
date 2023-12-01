@@ -9,7 +9,7 @@ const Akbar_Adil = () => {
   };
   const data = [
     {
-      page: "5",
+      page: "",
       Date: "00",
       description: "Gold 5 Tola 3 Gram",
       credit: "1148600",
@@ -17,7 +17,7 @@ const Akbar_Adil = () => {
       balance: "1148600",
     },
     {
-      page: "2",
+      page: "",
       Date: "00",
       description: "Portion Liya",
       credit: "00",
@@ -25,7 +25,7 @@ const Akbar_Adil = () => {
       balance: "-3851400",
     },
     {
-      page: "1",
+      page: "",
       Date: "00",
       description: "Portion ke hissay walay",
       credit: "1250000",
