@@ -1,50 +1,110 @@
-import React from 'react'
+import React, { useState } from "react";
+import page1 from "../../assets/IMG/akbar.jpeg";
+import { Table } from "react-bootstrap";
 
 const Akbar_Adil = () => {
-  return (
-    <>
-      <div className="container">
-        <div className="row my-3">
-          <div className="text-center">
-            <h1 className="fw-bold text-light">Akbar Adil</h1>
-            <p className="text-light fs-5">Debit Information</p>
-          </div>
-          <div className="col-12">
-            <table className="table table-dark">
-              <thead>
-                <tr>
-                  <th scope="col">Date</th>
-                  <th scope="col">Description</th>
-                  <th scope="col">Credit</th>
-                  <th scope="col">Debit</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </>
-  )
-}
+  const [visible, setVisible] = useState(false);
 
-export default Akbar_Adil
+  const handleClick = () => {
+    setVisible(!visible);
+  };
+  const data = [
+    {
+      page: "5",
+      Date: "00",
+      description: "Gold 5 Tola 3 Gram",
+      credit: "1148600",
+      debit: "00",
+      balance: "1148600",
+    },
+    {
+      page: "2",
+      Date: "00",
+      description: "Portion Liya",
+      credit: "00",
+      debit: "5000000",
+      balance: "-3851400",
+    },
+    {
+      page: "1",
+      Date: "00",
+      description: "Portion ke hissay walay",
+      credit: "1250000",
+      debit: "00",
+      balance: "-2601400",
+    },
+  ];
+
+  return (
+    <div>
+      <h1
+        style={{
+          fontWeight: "bold",
+          textAlign: "center",
+          marginTop: "13px",
+          marginBottom: "10px",
+          color: "snow",
+        }}
+      >
+        Anwar Adil
+      </h1>
+      <Table
+        striped
+        bordered
+        hover
+        responsive
+        variant="dark"
+        style={{ overflowX: "auto" }}
+      >
+        <thead>
+          <tr>
+            <th style={{ color: "aqua", textAlign: "center" }}>Page</th>
+            <th style={{ color: "aqua", textAlign: "center" }}>Date</th>
+            <th style={{ width: "300px", color: "aqua", textAlign: "center" }}>
+              Description
+            </th>
+            <th style={{ color: "aqua", textAlign: "center" }}>Credit</th>
+            <th style={{ color: "aqua", textAlign: "center" }}>Debit</th>
+            <th style={{ color: "aqua", textAlign: "center" }}>Balance</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.map((item, index) => (
+            <tr key={index}>
+              <td style={{ textAlign: "center" }}>{item.page}</td>
+              <td style={{ textAlign: "center" }}>{item.Date}</td>
+              <td>{item.description}</td>
+              <td style={{ textAlign: "center" }}>{item.credit}</td>
+              <td style={{ textAlign: "center" }}>{item.debit}</td>
+              <td
+                style={{
+                  textAlign: "center",
+                  fontWeight: "bold",
+                }}
+              >
+                {item.balance}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </Table>
+      <div>
+        <button onClick={handleClick} className="btn btn-dark fw-bold my-3">
+          {!visible ? "Page 1" : "Close"}
+        </button>
+        {visible && (
+          <div
+            style={{
+              width: "95vw",
+              height: "100vh",
+            }}
+          >
+            <img src={page1} style={{ height: "auto", width: "100%" }} />
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default Akbar_Adil;
