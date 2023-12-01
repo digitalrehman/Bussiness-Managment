@@ -62,7 +62,7 @@ const Ayaz_Adil = () => {
           color: "snow",
         }}
       >
-        Anwar Adil
+        Ayaz Adil
       </h1>
       <Table
         striped
