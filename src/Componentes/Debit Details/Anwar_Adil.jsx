@@ -70,7 +70,7 @@ const Anwar_Adil = () => {
         <thead>
           <tr>
             <th>Page</th>
-            <th style={{ width: "270px" }}>Description</th>
+            <th style={{ width: "300px" }}>Description</th>
             <th>Credit</th>
             <th>Debit</th>
             <th>Balance</th>
