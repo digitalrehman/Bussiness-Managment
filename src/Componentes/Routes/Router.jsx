@@ -22,6 +22,7 @@ import Summra from '../Debit Details/Summra'
 import Bank_Detail from '../Bank/Bank_Detail'
 import Shoaib_Akhtar from '../Debit Details/Shoaib_Akhtar'
 import Irfan_Chandaji from '../Debit Details/Irfan_Chandaji'
+import December_Looping from '../Karachi Data Looping/December_Looping'
 
 const Router = () => {
   return (
@@ -49,6 +50,7 @@ const Router = () => {
         <Route path='/Bank_Detail' element={<Bank_Detail/>}/>
         <Route path='/Shoaib_Akhtar' element={<Shoaib_Akhtar/>}/>
         <Route path='/Irfan_Chandaji' element={<Irfan_Chandaji/>}/>
+          <Route path='/December_Looping' element={<December_Looping/>}/>
         
       </Routes>
     </>
