@@ -13,7 +13,7 @@ const Karachi = () => {
             <Link to={"/NovKarLoop"} className="btn btn-dark btn-lg m-1">
               November
             </Link>
-            <Link to={"/"} className="btn btn-dark btn-lg m-1">
+            <Link to={"/December_Looping"} className="btn btn-dark btn-lg m-1">
               December
             </Link>
           </div>
