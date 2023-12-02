@@ -13,7 +13,7 @@ const Mirpurkhas = () => {
             <Link to={"/NovLoop"} className="btn btn-dark btn-lg m-1">
               November
             </Link>
-            <Link to={"/"} className="btn btn-dark btn-lg m-1">
+           <Link to={"/Dec_looping_Mir"} className="btn btn-dark btn-lg m-1">
               December
             </Link>
           </div>
