@@ -13,17 +13,17 @@ const Irfan_Chandaji = () => {
       page: "33",
       Date: "05/11/2023",
       description: "Changan Walay",
-      credit: "240000",
+      credit: "2400000",
       debit: "00",
-      balance: "240000",
+      balance: "2400000",
     },
     {
       page: "33",
       Date: "00",
       description: "Highroof Walay",
-      credit: "70000",
+      credit: "700000",
       debit: "00",
-      balance: "310000",
+      balance: "3100000",
     },
   ];
 
