@@ -51,7 +51,7 @@ const Debit = () => {
             Shoaib Akhtar
             </Link>
             <Link to={"/Irfan_Chandaji"} className="btn btn-dark btn-lg m-1">
-            Irfan Chandaji
+            Irfan Chandija
             </Link>
           </div>
         </div>
