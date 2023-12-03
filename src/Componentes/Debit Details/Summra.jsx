@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import page2 from "../../assets/IMG/samra.jpeg";
+import page2 from "../../assets/IMG/sumra.jpeg";
 import { Table } from "react-bootstrap";
 
 const Summra = () => {
