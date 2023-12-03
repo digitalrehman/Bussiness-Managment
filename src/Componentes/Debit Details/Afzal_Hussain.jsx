@@ -24,6 +24,14 @@ const Afzal_Hussain = () => {
       credit: "650000",
       debit: "00",
       balance: "1000000",
+    },,
+    {
+      page: "15",
+      Date: "00",
+      description: "Portion ke hissaty walay",
+      credit: "1250000",
+      debit: "00",
+      balance: "2250000",
     },
   ];
 
