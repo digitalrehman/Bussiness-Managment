@@ -65,7 +65,7 @@ const Balance = () => {
     {
       page: "25",
       Name: "Samra",
-      balance: "100000",
+      balance: "1000000",
     },
     {
       page: "24",
