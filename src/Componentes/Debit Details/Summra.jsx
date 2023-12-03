@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import page2 from "../../assets/IMG/sumra.jpeg";
+import page2 from "../../assets/IMG/samra.jpeg";
 import { Table } from "react-bootstrap";
 
 const Summra = () => {
@@ -16,7 +16,7 @@ const Summra = () => {
       credit: "1000000",
       debit: "00",
       balance: "1000000",
-    }
+    },
   ];
 
   return (
