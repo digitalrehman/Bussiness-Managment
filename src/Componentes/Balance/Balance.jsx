@@ -79,7 +79,7 @@ const Balance = () => {
     },
     {
       page: "11",
-      Name: "Ayaz",
+      Name: "Ayaz Adil",
       balance: "1190000",
     },
   ];
