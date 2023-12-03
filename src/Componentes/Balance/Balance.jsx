@@ -82,6 +82,16 @@ const Balance = () => {
       Name: "Ayaz Adil",
       balance: "1190000",
     },
+    {
+      page: "5",
+      Name: "Akbar Adil",
+      balance: "-2601400",
+    },
+    {
+      page: "35",
+      Name: "Kareem Bakhsh",
+      balance: "-800000",
+    }
   ];
 
   let sum = 0;
