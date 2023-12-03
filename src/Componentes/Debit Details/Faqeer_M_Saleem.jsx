@@ -24,6 +24,14 @@ const Faqeer_M_Saleem = () => {
       credit: "15300",
       debit: "00",
       balance: "1290300",
+    },,
+    {
+      page: "26",
+      Date: "1/12/23",
+      description: "Profit",
+      credit: "00",
+      debit: "15300",
+      balance: "1275000",
     },
   ];
 
