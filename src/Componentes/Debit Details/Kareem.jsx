@@ -15,7 +15,7 @@ const Kareem = () => {
       description: "Car ke bakaya",
       credit: "00",
       debit: "800000",
-      balance: "800000",
+      balance: "-800000",
     },
   ];
 
