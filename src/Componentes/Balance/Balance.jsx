@@ -125,9 +125,9 @@ const Balance = () => {
               <tbody>
                 {data.map((item, index) => (
                   <tr key={index}>
-                    <td style={{ textAlign: "center" }}>{item.page}</td>
-                    <td style={{ textAlign: "center" }}>{item.Name}</td>
-                    <td style={{ textAlign: "center" }}>{item.balance}</td>
+                    <td>{item.page}</td>
+                    <td>{item.Name}</td>
+                    <td>{item.balance}</td>
                   </tr>
                 ))}
               </tbody>
