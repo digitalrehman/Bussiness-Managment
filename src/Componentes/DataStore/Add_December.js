@@ -29,6 +29,11 @@ let Add_Data_Dec = [
       sale: "6400",
       profit: "700",
     }
+    ,{
+      date: "8/12/2023",
+      sale: "14000",
+      profit: "4890",
+    }
   ];
   
   let sum = 0;
