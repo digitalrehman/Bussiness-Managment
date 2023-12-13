@@ -26,6 +26,9 @@ import December_Looping from '../Karachi Data Looping/December_Looping'
 import Dec_looping_Mir from '../Mirpurkhas Data Looping/Dec_looping_Mir'
 import Balance from '../Balance/Balance'
 import Kareem from '../Debit Details/Kareem'
+import Karachi_Expense from "../Karachi Expense/Karachi_Expense";
+import Mirpur_Expense from "../Mirpurkhas Expense/Mirpur_Expense";
+
 
 const Router = () => {
   return (
@@ -53,10 +56,12 @@ const Router = () => {
         <Route path='/Bank_Detail' element={<Bank_Detail/>}/>
         <Route path='/Shoaib_Akhtar' element={<Shoaib_Akhtar/>}/>
         <Route path='/Irfan_Chandaji' element={<Irfan_Chandaji/>}/>
-          <Route path='/December_Looping' element={<December_Looping/>}/>
-         <Route path='/Dec_looping_Mir' element={<Dec_looping_Mir/>}/>
+        <Route path='/December_Looping' element={<December_Looping/>}/>
+        <Route path='/Dec_looping_Mir' element={<Dec_looping_Mir/>}/>
         <Route path='/Balance' element={<Balance/>}/>
         <Route path='/Kareem' element={<Kareem/>}/>
+        <Route path="/Karachi_Expense" element={<Karachi_Expense />} />
+        <Route path="/Mirpur_Expense" element={<Mirpur_Expense />} />
         
       </Routes>
     </>
