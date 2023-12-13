@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <div className="container">
+      <div className="container-fluid">
         <div className="row my-5">
           <div className="col-12">
             <h1 className="text-light">
