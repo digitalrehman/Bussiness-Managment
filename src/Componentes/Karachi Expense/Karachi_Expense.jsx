@@ -13,7 +13,7 @@ const Karachi_Expense = () => {
         {
           page: "117",
           Date: "00",
-          description: "Anwarne liye",
+          description: "Anwar ne liye",
           credit: "00",
           debit: "66666",
           balance: "48659",
