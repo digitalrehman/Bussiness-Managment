@@ -2,9 +2,8 @@ import React from "react";
 import { Add_Data_Dec, sum_Ans } from "../DataStore/Add_December";
 import December from "../Nov Karachi/December";
 
-
 const December_Looping = () => {
-  let { Sumvalue, Sumprofit } = sum_Ans[0];
+  let { Sumvalue, Sumprofit, Akbar, Anwar } = sum_Ans[0];
   return (
     <>
       <div className="container">
@@ -25,6 +24,12 @@ const December_Looping = () => {
                   <th scope="col" className="fs-5 text-primary">
                     Profit
                   </th>
+                  <th scope="col" className="fs-5 text-primary">
+                    Akbar
+                  </th>
+                  <th scope="col" className="fs-5 text-primary">
+                    Anwar
+                  </th>
                 </tr>
               </thead>
             </table>
@@ -36,7 +41,7 @@ const December_Looping = () => {
               );
             })}
             <div className="row">
-              <div className="col-10">
+              <div className="col-12">
                 <table className="table table-dark table-hover text-center">
                   <thead className="text-center">
                     <tr>
@@ -46,12 +51,20 @@ const December_Looping = () => {
                       <th scope="col" className="fs-5 text-info">
                         Total Profit
                       </th>
+                      <th scope="col" className="fs-5 text-info">
+                        Akbar
+                      </th>
+                      <th scope="col" className="fs-5 text-info">
+                        Anwar
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td scope="row">{Sumvalue}</td>
                       <td scope="row"> {Sumprofit} </td>
+                      <td scope="row"> {Akbar} </td>
+                      <td scope="row"> {Anwar} </td>
                     </tr>
                   </tbody>
                 </table>
