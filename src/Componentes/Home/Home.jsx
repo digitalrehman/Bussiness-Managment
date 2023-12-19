@@ -23,6 +23,8 @@ const Home = () => {
             >
               Karachi
             </Link>
+             <br/>
+              <br/>
             <Link
               to="/Collections"
               className="text-light text-decoration-none p-2 bg-dark rounded-2 m-1"
