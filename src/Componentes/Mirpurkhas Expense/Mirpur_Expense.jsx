@@ -37,7 +37,7 @@ const Mirpur_Expense = () => {
     {
       page: "118",
       Date: "00",
-      description: "Shams bhai ko diye",
+      description: "Saleem bhai ko diye",
       credit: "00",
       debit: "15300",
       balance: "37168",
