@@ -1,4 +1,4 @@
-let Add_Data_Dec = [
+uplet Add_Data_Dec = [
   {
     date: "1/12/2023",
     sale: "18020",
@@ -172,6 +172,12 @@ let Add_Data_Dec = [
     profit: "2320",
     Akbar: "1080",
     Anwar: "790",
+  },{
+    date: "27/12/2023",
+    sale: "4430",
+    profit: "2590",
+    Akbar: "700",
+    Anwar: "1290",
   },
       
 ];
