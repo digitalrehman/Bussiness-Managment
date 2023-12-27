@@ -1,4 +1,4 @@
-uplet Add_Data_Dec = [
+let Add_Data_Dec = [
   {
     date: "1/12/2023",
     sale: "18020",
