@@ -3,7 +3,7 @@ import { Add_Data, sum_Ans } from "../DataStore/AddData";
 import NovKarachi_2023 from "../Nov Karachi/NovKarachi_2023";
 
 const NovKarLoop = () => {
-    let { Sumvalue, Sumprofit } = sum_Ans[0];
+    let { Sumvalue, Sumprofit, Akbar, Anwar } = sum_Ans[0];
   return (
     <>
       <div className="container">
@@ -23,6 +23,12 @@ const NovKarLoop = () => {
                 </th>
                 <th scope="col" className="fs-5 text-primary">
                   Profit
+                </th>
+                <th scope="col" className="fs-5 text-primary">
+                  Akbar
+                </th>
+                <th scope="col" className="fs-5 text-primary">
+                  Anwar
                 </th>
               </tr>
             </thead>
@@ -47,12 +53,20 @@ const NovKarLoop = () => {
                       <th scope="col" className="fs-5 text-info">
                         Total Profit
                       </th>
+                      <th scope="col" className="fs-5 text-info">
+                        Akbar
+                      </th>
+                      <th scope="col" className="fs-5 text-info">
+                        Anwar
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td scope="row">{Sumvalue}</td>
                       <td scope="row"> {Sumprofit} </td>
+                      <td scope="row"> {Akbar} </td>
+                      <td scope="row"> {Anwar} </td>
                     </tr>
                   </tbody>
                 </table>
