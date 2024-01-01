@@ -1,5 +1,12 @@
 let Add_Data = [
   {
+    date: "10/11/2023",
+    sale: "00",
+    profit: "00",
+    Akbar: "67401",
+    Anwar: "67685",
+  },
+  {
     date: "11/11/2023",
     sale: "18030",
     profit: "9045",
