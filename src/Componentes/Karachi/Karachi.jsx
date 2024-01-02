@@ -16,6 +16,9 @@ const Karachi = () => {
             <Link to={"/December_Looping"} className="btn btn-dark btn-lg m-1">
               December
             </Link>
+            <Link to={"/January_24"} className="btn btn-dark btn-lg m-1">
+              January 24
+            </Link>
           </div>
         </div>
       </div>
