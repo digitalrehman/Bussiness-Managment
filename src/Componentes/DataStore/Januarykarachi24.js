@@ -1,6 +1,6 @@
 let Add_Data_Dec = [
     {
-      date: "1/12/2023",
+      date: "1/1/2024",
       sale: "26160",
       profit: "15400",
       Akbar: "1850",
