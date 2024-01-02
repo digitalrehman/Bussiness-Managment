@@ -28,6 +28,7 @@ import Balance from '../Balance/Balance'
 import Kareem from '../Debit Details/Kareem'
 import Karachi_Expense from "../Karachi Expense/Karachi_Expense";
 import Mirpur_Expense from "../Mirpurkhas Expense/Mirpur_Expense";
+import January_24 from '../Karachi Data Looping/January_24'
 
 
 const Router = () => {
@@ -62,6 +63,7 @@ const Router = () => {
         <Route path='/Kareem' element={<Kareem/>}/>
         <Route path="/Karachi_Expense" element={<Karachi_Expense />} />
         <Route path="/Mirpur_Expense" element={<Mirpur_Expense />} />
+         <Route path="/January_24" element={<January_24 />} />
         
       </Routes>
     </>
