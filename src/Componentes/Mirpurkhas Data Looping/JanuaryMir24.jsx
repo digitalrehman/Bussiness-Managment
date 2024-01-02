@@ -3,6 +3,7 @@ import { Add_Data_Dec, sum_Ans } from "../DataStore/januarymirpurkhas";
 
 const JanuaryMir24 = () => {
   let { Sumvalue, Sumprofit, ayaz, afzal } = sum_Ans[0];
+  let salary = 103850;
   return (
     <>
       <div className="container">
@@ -93,9 +94,9 @@ const JanuaryMir24 = () => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td scope="row">103850</td>
-                      <td scope="row">{103850 - ayaz} </td>
-                      <td scope="row"> {103850 - afzal} </td>
+                      <td scope="row">{salary}</td>
+                      <td scope="row">{salary - ayaz} </td>
+                      <td scope="row"> {salary - afzal} </td>
                     </tr>
                   </tbody>
                 </table>
