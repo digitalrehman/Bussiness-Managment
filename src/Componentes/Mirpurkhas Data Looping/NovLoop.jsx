@@ -3,6 +3,7 @@ import { Add_Mirpur, sum_Ans } from "../DataStore/AddMirData";
 
 const NovLoop = () => {
   let { Sumvalue, Sumprofit, ayaz, afzal } = sum_Ans[0];
+  let salary = 67000;
   return (
     <>
               <div className="container">
@@ -93,9 +94,9 @@ const NovLoop = () => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td scope="row">67000</td>
-                      <td scope="row">{67000 - ayaz} </td>
-                      <td scope="row"> {67000 - afzal} </td>
+                      <td scope="row">{salary}</td>
+                      <td scope="row">{salary - ayaz} </td>
+                      <td scope="row"> {salary - afzal} </td>
                     </tr>
                   </tbody>
                 </table>
