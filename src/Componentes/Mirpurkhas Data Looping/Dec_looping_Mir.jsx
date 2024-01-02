@@ -1,9 +1,8 @@
 import React from "react";
 import { Add_Data_Dec, sum_Ans } from "../DataStore/Mir_Dec";
-import Dec_Mir from "../November/Dec_Mir";
 
 const Dec_looping_Mir = () => {
-  let { Sumvalue, Sumprofit } = sum_Ans[0];
+  let { Sumvalue, Sumprofit, ayaz, afzal } = sum_Ans[0];
   return (
     <>
       <div className="container">
@@ -24,18 +23,33 @@ const Dec_looping_Mir = () => {
                   <th scope="col" className="fs-5 text-primary">
                     Profit
                   </th>
+                  <th scope="col" className="fs-5 text-primary">
+                    Ayaz
+                  </th>
+                  <th scope="col" className="fs-5 text-primary">
+                    Afzal
+                  </th>
                 </tr>
               </thead>
             </table>
-            {Add_Data_Dec.map((data, index) => {
-              return (
-                <div className="col-12" key={index}>
-                  <Dec_Mir data={data} />
-                </div>
-              );
-            })}
+            {Add_Data_Dec.map((data, index) => (
+              <table
+                className="table table-dark table-hover text-center"
+                key={index}
+              >
+                <tbody>
+                  <tr>
+                    <td scope="row">{data.date}</td>
+                    <td scope="row"> {data.sale}</td>
+                    <td scope="row">{data.profit}</td>
+                    <td scope="row">{data.ayaz}</td>
+                    <td scope="row">{data.afzal}</td>
+                  </tr>
+                </tbody>
+              </table>
+            ))}
             <div className="row">
-              <div className="col-10">
+              <div className="col-12">
                 <table className="table table-dark table-hover text-center">
                   <thead className="text-center">
                     <tr>
@@ -45,12 +59,43 @@ const Dec_looping_Mir = () => {
                       <th scope="col" className="fs-5 text-info">
                         Total Profit
                       </th>
+                      <th scope="col" className="fs-5 text-info">
+                        Ayaz
+                      </th>
+                      <th scope="col" className="fs-5 text-info">
+                        Afzal
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td scope="row">{Sumvalue}</td>
                       <td scope="row"> {Sumprofit} </td>
+                      <td scope="row"> {ayaz} </td>
+                      <td scope="row"> {afzal} </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table className="table table-dark table-hover text-center">
+                  <thead className="text-center">
+                    <tr>
+                      <th scope="col" className="fs-5 text-info">
+                        Total Salary
+                      </th>
+                      <th scope="col" className="fs-5 text-info">
+                        Ayaz Credit
+                      </th>
+                      <th scope="col" className="fs-5 text-info">
+                        Afzal Credit
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">103850</td>
+                      <td scope="row">{103850 - ayaz} </td>
+                      <td scope="row"> {103850 - afzal} </td>
                     </tr>
                   </tbody>
                 </table>
