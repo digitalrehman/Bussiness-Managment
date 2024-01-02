@@ -131,20 +131,15 @@ const NovKarLoop = () => {
                   <tbody>
                     <tr>
                       <td scope="row" className="fw-bold text-info">
-                        {" "}
                         Akbar
                       </td>
                       <td scope="row"> 11/11/23 previous </td>
                       <td scope="row"> {akbar_remaining}</td>
                       <td scope="row"> {anwar_remaining} </td>
-                      <td scope="row">
-                        {" "}
-                        {akbar_remaining + (salary - Akbar)}{" "}
-                      </td>
+                      <td scope="row">{akbar_remaining + (salary - Akbar)}</td>
                     </tr>
                     <tr>
                       <td scope="row" className="fw-bold text-info">
-                        {" "}
                         Anwar
                       </td>
                       <td scope="row"> 11/11/23 previous </td>
