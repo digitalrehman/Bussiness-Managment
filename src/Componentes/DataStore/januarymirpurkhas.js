@@ -6,7 +6,26 @@ let Add_Data_Dec = [
       ayaz: "3350",
       afzal: "3350",
     },
-  ];
+  {
+      date: "2/1/2024",
+      sale: "55850",
+      profit: "11500",
+      ayaz: "3350",
+      afzal: "3350",
+    },{
+      date: "3/1/2024",
+      sale: "70700",
+      profit: "13700",
+      ayaz: "3350",
+      afzal: "3350",
+    },{
+      date: "4/1/2024",
+      sale: "34300",
+      profit: "9200",
+      ayaz: "3350",
+      afzal: "3350",
+    },
+    ];
   
   let sumayaz = 0;
   for (let i = 0; i < Add_Data_Dec.length; i++) {
