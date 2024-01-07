@@ -133,7 +133,7 @@ const January_24 = () => {
                       <td scope="row" className="fw-bold text-info">
                         Akbar
                       </td>
-                      <td scope="row"> 11/23 previous </td>
+                      <td scope="row"> 12/23 previous </td>
                       <td scope="row"> {akbar_remaining}</td>
                       <td scope="row"> {anwar_remaining} </td>
                       <td scope="row">{akbar_remaining + (salary - Akbar)}</td>
@@ -142,7 +142,7 @@ const January_24 = () => {
                       <td scope="row" className="fw-bold text-info">
                         Anwar
                       </td>
-                      <td scope="row"> 11/23 previous </td>
+                      <td scope="row"> 12/23 previous </td>
                       <td scope="row"> {akbar_remaining} </td>
                       <td scope="row"> {anwar_remaining}</td>
                       <td scope="row">{anwar_remaining + (salary - Anwar)} </td>
