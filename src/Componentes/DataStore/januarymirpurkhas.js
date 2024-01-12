@@ -48,6 +48,24 @@ let Add_Data_Dec = [
       profit: "11800",
       ayaz: "3350",
       afzal: "3350",
+    },{
+      date: "9/1/2024",
+      sale: "65900",
+      profit: "11600",
+      ayaz: "3350",
+      afzal: "3350",
+    },{
+      date: "10/1/2024",
+      sale: "43360",
+      profit: "10900",
+      ayaz: "3350",
+      afzal: "3350",
+    },{
+      date: "11/1/2024",
+      sale: "50800",
+      profit: "11300",
+      ayaz: "3350",
+      afzal: "3350",
     },
     ];
   
