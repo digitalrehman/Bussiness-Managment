@@ -59,6 +59,18 @@ let Add_Data_Dec = [
       profit: "50",
       Akbar: "00",
       Anwar: "00",
+    },{
+      date: "11/1/2024",
+      sale: "7850",
+      profit: "4450",
+      Akbar: "650",
+      Anwar: "00",
+    },{
+      date: "12/1/2024",
+      sale: "11920",
+      profit: "6240",
+      Akbar: "730",
+      Anwar: "00",
     },
     
   ];
