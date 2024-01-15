@@ -86,8 +86,8 @@ let Add_Data_Dec = [
       afzal: "3350",
     },{
       date: "15/1/2024",
-      sale: "0",
-      profit: "00",
+      sale: "40040",
+      profit: "10500",
       ayaz: "3350",
       afzal: "3350",
     },
