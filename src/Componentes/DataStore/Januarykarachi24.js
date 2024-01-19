@@ -78,10 +78,10 @@ let Add_Data_Dec = [
       Akbar: "3600",
       Anwar: "00",
     },{
-      date: "12/1/2024",
-      sale: "11920",
-      profit: "6240",
-      Akbar: "730",
+      date: "14/1/2024",
+      sale: "26200",
+      profit: "10990",
+      Akbar: "11350",
       Anwar: "00",
     },
     {
@@ -96,6 +96,24 @@ let Add_Data_Dec = [
       profit: "340",
       Akbar: "1620",
       Anwar: "00",
+    },{
+      date: "17/1/2024",
+      sale: "17270",
+      profit: "5920",
+      Akbar: "5980",
+      Anwar: "6360",
+    },{
+      date: "18/1/2024",
+      sale: "15980",
+      profit: "340",
+      Akbar: "3640",
+      Anwar: "3990",
+    },{
+      date: "19/1/2024",
+      sale: "10310",
+      profit: "2110",
+      Akbar: "1000",
+      Anwar: "1600",
     },
   ];
   
