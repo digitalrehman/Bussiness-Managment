@@ -90,7 +90,49 @@ let Add_Data_Dec = [
       profit: "10500",
       ayaz: "3350",
       afzal: "3350",
-    },
+    },{
+      date: "16/1/2024",
+      sale: "48800",
+      profit: "12000",
+      ayaz: "3350",
+      afzal: "3350",
+    },{
+      date: "17/1/2024",
+      sale: "57360",
+      profit: "11200",
+      ayaz: "3350",
+      afzal: "3350",
+    },{
+      date: "18/1/2024",
+      sale: "33500",
+      profit: "10200",
+      ayaz: "3350",
+      afzal: "3350",
+    },{
+      date: "19/1/2024",
+      sale: "12400",
+      profit: "2000",
+      ayaz: "3350",
+      afzal: "3350",
+    },{
+      date: "20/1/2024",
+      sale: "94200",
+      profit: "15200",
+      ayaz: "3350",
+      afzal: "3350",
+    },{
+      date: "21/1/2024",
+      sale: "63800",
+      profit: "11300",
+      ayaz: "3350",
+      afzal: "3350",
+    },{
+      date: "22/1/2024",
+      sale: "83150",
+      profit: "16000",
+      ayaz: "3350",
+      afzal: "3350",
+    }
     ];
   
   let sumayaz = 0;
