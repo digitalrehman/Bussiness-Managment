@@ -1,8 +1,14 @@
 let Add_Data_Dec = [
     {
-      date: "1/1/2024",
-      sale: "28750",
-      profit: "9000",
+      date: "1/2/2024",
+      sale: "37850",
+      profit: "9800",
+      ayaz: "3350",
+      afzal: "3350",
+    },   {
+      date: "2/2/2024",
+      sale: "42210",
+      profit: "10500",
       ayaz: "3350",
       afzal: "3350",
     },
