@@ -180,7 +180,13 @@ let Add_Data_Dec = [
       profit: "9800",
       ayaz: "3350",
       afzal: "3350",
-    }
+    },{
+      date: "31/1/2024",
+      sale: "59000",
+      profit: "11000",
+      ayaz: "3350",
+      afzal: "3350",
+    },
     ];
   
   let sumayaz = 0;
