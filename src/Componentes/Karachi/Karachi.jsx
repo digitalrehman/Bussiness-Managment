@@ -19,6 +19,9 @@ const Karachi = () => {
             <Link to={"/January_24"} className="btn btn-dark btn-lg m-1">
               January 24
             </Link>
+               <Link to={"/FebKarachi"} className="btn btn-dark btn-lg m-1">
+              February 24
+            </Link>
           </div>
         </div>
       </div>
