@@ -125,8 +125,49 @@ let Add_Data_Dec = [
       profit: "5950",
       Akbar: "850",
       Anwar: "600",
+    },{
+      date: "21/2/2023",
+      sale: "10030",
+      profit: "3440",
+      Akbar: "1250",
+      Anwar: "640",
+    },{
+      date: "22/2/2023",
+      sale: "11960",
+      profit: "5260",
+      Akbar: "950",
+      Anwar: "800",
+    },{
+      date: "23/2/2023",
+      sale: "4120",
+      profit: "950",
+      Akbar: "650",
+      Anwar: "400",
+    },{
+      date: "24/2/2023",
+      sale: "12350",
+      profit: "4300",
+      Akbar: "1285",
+      Anwar: "2485",
+    },{
+      date: "25/2/2023",
+      sale: "10210",
+      profit: "5950",
+      Akbar: "850",
+      Anwar: "600",
+    },{
+      date: "26/2/2023",
+      sale: "16080",
+      profit: "6250",
+      Akbar: "650",
+      Anwar: "700",
+    },{
+      date: "27/2/2023",
+      sale: "16340",
+      profit: "7020",
+      Akbar: "5910",
+      Anwar: "6150",
     },
-    
     
   ];
   
