@@ -25,6 +25,7 @@ export { default as Dec_looping_Mir } from "./Mirpurkhas Data Looping/Dec_loopin
 export { default as Balance } from "./Balance/Balance";
 export { default as Kareem } from "./Debit Details/Kareem";
 export { default as Karachi_Expense } from "./Karachi Expense/Karachi_Expense";
+export { default as MarchKarachi } from "./Karachi Data Looping/MarchKarachi";
 export { default as Mirpur_Expense } from "./Mirpurkhas Expense/Mirpur_Expense";
 export { default as January_24 } from "./Karachi Data Looping/January_24";
 export { default as JanuaryMir24 } from "./Mirpurkhas Data Looping/JanuaryMir24";
