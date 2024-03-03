@@ -142,7 +142,7 @@ const FebKarachi = () => {
                       <td scope="row" className="fw-bold text-info">
                         Anwar
                       </td>
-                      <td scope="row"> 11/23 previous </td>
+                      <td scope="row"> 2/23 previous </td>
                       <td scope="row"> {akbar_remaining} </td>
                       <td scope="row"> {anwar_remaining}</td>
                       <td scope="row">{anwar_remaining + (salary - Anwar)} </td>
