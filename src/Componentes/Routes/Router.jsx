@@ -33,6 +33,7 @@ import {
   January_24,
   Feberuary,
   FebKarachi,
+   MarchKarachi,
 } from "../index";
 const Router = () => {
   return (
@@ -70,6 +71,7 @@ const Router = () => {
         <Route path="/JanuaryMir24" element={<JanuaryMir24 />} />
         <Route path="/Feberuary" element={<Feberuary />} />
         <Route path="/FebKarachi" element={<FebKarachi />} />
+         <Route path="/MarchKarachi" element={<MarchKarachi />} />
       </Routes>
     </>
   );
